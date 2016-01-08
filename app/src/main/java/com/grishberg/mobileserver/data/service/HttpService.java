@@ -11,12 +11,12 @@ import java.nio.channels.SocketChannel;
  * Created by g on 07.01.16.
  */
 public class HttpService extends BaseBinderService implements IResponseListener {
-    private NioServer mServer;
+    private HttpSocketServer mServer;
 
     @Override
     public void onCreate() {
         super.onCreate();
-        mServer = new NioServer(null,8080);
+        mServer = new HttpSocketServer(8080);
     }
 
     public void startServer(){
