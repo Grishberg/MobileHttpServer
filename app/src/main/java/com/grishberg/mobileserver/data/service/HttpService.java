@@ -3,7 +3,6 @@ package com.grishberg.mobileserver.data.service;
 import com.grishberg.mobileserver.framework.BaseBinderService;
 import com.grishberg.mobileserver.service.http.HttpSocketServer;
 import com.grishberg.mobileserver.service.http.IResponseListener;
-import com.grishberg.mobileserver.service.http.NioServer;
 
 import java.nio.channels.SocketChannel;
 
